@@ -114,7 +114,10 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.10-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.10-x86_64-linux)
+      racc (~> 1.4)
     orm_adapter (0.5.0)
+    pg (1.4.5)
     public_suffix (5.0.1)
     puma (3.12.6)
     racc (1.6.2)
@@ -220,6 +223,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
@@ -232,6 +236,7 @@ DEPENDENCIES
   mail (= 2.7.1)
   mini_magick
   mysql2 (>= 0.4.4)
+  pg
   puma (~> 3.11)
   rails (~> 6.0.0)
   sass-rails (~> 5)
